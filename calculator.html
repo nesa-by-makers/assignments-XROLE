@@ -1,0 +1,57 @@
+ <html>
+	<head> <title>CALCULATOR</title>
+		
+	<style>
+	
+			body {
+					background-color:#621b0b;
+				}
+		
+		#arange {
+				text-align: center;
+				margin-top:250px;
+				}
+		#arange #xr {
+					color:orange;
+					font-family: morpheus;
+					font-size: 20px;
+					}
+	</style>
+	
+	</head>
+	
+	<body>
+	
+	<div id= "arange">
+	<form  name ="calcform">
+		<input type ="text" name = "txt1" size= "10"><br><br>
+		<input type = "button" name = "btn9" value = "9" onclick = "calcform.txt1.value +='9'">
+		<input type = "button" name = "btn8" value ="8" onclick = "calcform.txt1.value +='8'" >
+		<input type = "button" name = "btn7" value ="7" onclick = "calcform.txt1.value +='7'">
+		<input type = "button" name = "addbtn" value ="+" onclick = "calcform.txt1.value +='+'">
+		<br>
+	
+		<input type = "button" name = "btn6" value ="6" onclick = "calcform.txt1.value +='6'">
+		<input type = "button" name = "btn5" value ="5" onclick = "calcform.txt1.value +='5'">
+		<input type = "button" name = "btn4" value ="4" onclick = "calcform.txt1.value +='4'">
+		<input type = "button" name ="subbtn" value="-" onclick = "calcform.txt1.value +='-'">
+		<br>
+	
+		<input type = "button" name = "btn3" value ="3" onclick = "calcform.txt1.value +='3'">
+		<input type = "button" name = "btn2" value ="2" onclick = "calcform.txt1.value +='2'">
+		<input type = "button" name = "btn1" value ="1" onclick = "calcform.txt1.value +='1'">
+		<input type = "button" name = "mulbtn" value ="*"onclick = "calcform.txt1.value +='*'">
+		<br>
+		
+		<input type = "button" name = "btn0" value ="0"   onclick = "calcform.txt1.value +='0'">
+		<input type = "button" name = "ptbtn" value ="C" onclick = "calcform.txt1.value =''">
+		<input type = "button" name = "eqlbtn" value ="=" onclick = "calcform.txt1.value = eval(calcform.txt1.value)">
+		<input type = "button" name = "divbtn" value ="/ " onclick = "calcform.txt1.value +='/'">
+	</form>
+	
+	<div id ="xr"> NESA FIRST PROJECT </div>
+	
+	</div>
+		
+	</body> 
+</html>

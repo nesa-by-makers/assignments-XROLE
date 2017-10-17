@@ -1,0 +1,43 @@
+<html>
+	<head><title> Brilliant student profile</title>
+	<script>
+	function details(){
+	 var one = document.getElementById("firstname").value;
+	 var two = document.getElementById("lastname").value;
+	 var three = document.getElementById("phonenumber").value;
+	 var four = document.getElementById("email").value;
+	 var five = document.getElementById("address").value;
+	 var result = one + " " + two + " " + three + " " + four + " " + five;
+		return result;
+			}
+
+	</script>
+	
+	
+	
+	</head> 
+	
+	<body>
+	
+
+	<form>
+	First Name<br>
+		<input type ="text"  id ="firstname"  ><br><br>
+	Last Name<br>
+		<input type ="text"   id="lastname"><br><br>
+	Phone Numbe<br>
+		<input type ="number"  id="phonenumber"><br><br>
+	Email<br>
+		<input type = "email"  id= "email"><br><br>
+	Address <br>
+		<textarea name = "address" id ="address"  rows="4" cols ="30">
+		</textarea> <br> <br>
+		
+		<input type = "submit" value = "submit" onclick= "alert(details())">
+		<button  onclick= "alert(details())"> OK </button>
+	</form>
+	
+					
+		
+			</body>
+</html>

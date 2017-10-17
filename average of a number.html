@@ -1,0 +1,30 @@
+
+
+<html>
+	<head>
+		<script>
+		
+		function outputProduct()
+		{
+		  var box1 = parseInt(document.getElementById('box1').value);
+		  var box2 = parseInt(document.getElementById('box2').value);
+		  var box3 = parseInt(document.getElementById('box3').value);
+		  var box4 = parseInt(document.getElementById('box4').value);
+		  var box5 = parseInt(document.getElementById('box5').value);
+		  var Product = (box1*box2*box3*box4*box5);
+		  window.alert("answer"+ Product);
+		}
+		
+		</script>
+	</head>
+	
+	
+		<body>
+			<input id="box1" />
+			<input id="box2" />
+			<input id="box3" />
+			<input id="box4" />
+			<input id="box5" />
+		<input type="button" id="btnproduct" onClick=outputProduct() value = "Product" />  
+		</body>
+</html>
