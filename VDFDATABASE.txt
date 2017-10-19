@@ -1,0 +1,16 @@
+create database;
+create table PERSONAL_INFORMATION( FullName varchar(50),
+									LastName varchar(50),
+									PhoneNumber int,
+									OfficeAddress varchar(50) )
+									
+create table PLACEMENT_INFORMATION( ProposedDuration varchar(50),
+									Amount varchar(50) );
+								
+create table PAYOUT_DETAILS(AccountNumber varchar(50),
+							AccountName varchar(50),
+							NameOfBank varchar(50) );
+						
+create table NEXT_OF_KIN(Name varchar(50),
+						PhoneNumber varchar(50),
+						EmailAddress varchar(50) );
